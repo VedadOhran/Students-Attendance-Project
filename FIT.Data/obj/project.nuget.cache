@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zHcmL4tFL31KOPh+oH2USUY20BfSEitGG7DyI5/4JBdry5vkJIkEOaagkKcpd+yhJwff8QNyZ8eYdHzsB0HsVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vedad\\Desktop\\students-attendance\\FIT.Data\\FIT.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vedad\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Vedad\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
