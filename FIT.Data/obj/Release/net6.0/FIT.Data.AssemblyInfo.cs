@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FIT.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d094ccdb44eb4fb7c6439c0ec183459cc6ce00c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("FIT.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FIT.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

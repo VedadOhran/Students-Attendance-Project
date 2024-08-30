@@ -14,5 +14,10 @@ namespace FIT.Data.IB220105
         public byte[] Logo { get; set; }
         public int Kapacitet { get; set; }
 
+        public override string ToString()
+        {
+            return Naziv;
+        }
+
     }
 }

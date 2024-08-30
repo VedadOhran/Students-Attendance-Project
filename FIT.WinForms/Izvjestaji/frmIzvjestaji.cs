@@ -19,15 +19,12 @@ namespace FIT.WinForms.Izvjestaji
 
         private void frmIzvjestaji_Load(object sender, EventArgs e)
         {
-            var nastava = db.Nastava.Where(s => s.ProstorijeId == prostorija.Prostorije.Id).ToList();
-            List<Prisustvo> prisustvo = new List<Prisustvo>();
-
-            for(int i =0;i<nastava.Count;i++)
-            {
-                prisustvo.AddRange(db.Prisustvo.Include(s => s.Nastava)
-                    .Include(s => s.Student).Include(s => s.Nastava.Predmeti)
-                    .Where(s => s.Nastava.Id == nastava[i].Id).ToList());
-            }
+            var prisustvo = db.Prisustvo
+            .Include(s => s.Nastava)
+            .Include(s => s.Nastava.Predmeti)
+            .Include(s => s.Student)
+            .Where(s => s.Nastava.ProstorijeId == prostorija.Prostorije.Id)
+            .ToList();
 
 
             var Tabela = new dsNastava.DataTable1DataTable();

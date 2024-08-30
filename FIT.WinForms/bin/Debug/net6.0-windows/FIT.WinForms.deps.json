@@ -650,7 +650,10 @@
           "System.Drawing.Common": "8.0.0"
         },
         "runtime": {
-          "FIT.Data.dll": {}
+          "FIT.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "FIT.Infrastructure/1.0.0": {
@@ -660,7 +663,10 @@
           "System.Configuration.ConfigurationManager": "8.0.0"
         },
         "runtime": {
-          "FIT.Infrastructure.dll": {}
+          "FIT.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
